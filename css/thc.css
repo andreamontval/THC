@@ -1,0 +1,236 @@
+body{
+  margin: 0;
+
+}
+header{
+  background-color: #f0f0f0;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  border-bottom: inset;
+  border-color: #21334D;
+}
+.panelizqheader{
+  width: 15%;
+  height: 100%
+  margin:0;
+  position: fixed;
+  display: block;
+  float: left;
+}
+#logothcheader{
+  height: 33px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.panelcentroheader{
+  width: 60%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  display:block ;
+  left: 15%;
+}
+#paginas{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+#paginas li{
+  float: left;
+  display: block;
+  margin: 5px 5px 0 5px;
+  height: 56%;
+  background: #0C345C;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 12px 10px 0 10px;
+  border-radius: 3px;
+  background: rgba(60,166,195,1);
+  background: -moz-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,166,195,1)), color-stop(32%, rgba(35,106,141,1)), color-stop(61%, rgba(12,52,92,1)), color-stop(83%, rgba(8,36,63,1)), color-stop(85%, rgba(8,36,63,1)));
+  background: -webkit-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -o-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -ms-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: linear-gradient(to bottom, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ca6c3', endColorstr='#08243f', GradientType=0 );
+}
+#paginas a{
+  text-decoration: none;
+  color: #fff;
+}
+#paginas li:hover{
+  background: #0168AF;
+}
+.panelderheader{
+  width: 25%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  display: block ;
+  left: 75%;
+}
+#administracion{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+#administracion #configlistdesplegable{
+  float: right;
+  display: block;
+  margin: 5px 5px 0 5px;
+  height: 56%;
+  background: #0C345C;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 10px 2px 10px;
+  border-radius: 3px;
+  background: rgba(60,166,195,1);
+  background: -moz-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,166,195,1)), color-stop(32%, rgba(35,106,141,1)), color-stop(61%, rgba(12,52,92,1)), color-stop(83%, rgba(8,36,63,1)), color-stop(85%, rgba(8,36,63,1)));
+  background: -webkit-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -o-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -ms-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: linear-gradient(to bottom, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ca6c3', endColorstr='#08243f', GradientType=0 );
+}
+#administracion #usuariolistdesplegable{
+  float: right;
+  display: block;
+  margin: 5px 5px 0 5px;
+  height: 56%;
+  background: #0C345C;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 6px 10px 6px 10px;
+  border-radius: 3px;
+  background: rgba(60,166,195,1);
+  background: -moz-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,166,195,1)), color-stop(32%, rgba(35,106,141,1)), color-stop(61%, rgba(12,52,92,1)), color-stop(83%, rgba(8,36,63,1)), color-stop(85%, rgba(8,36,63,1)));
+  background: -webkit-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -o-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -ms-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: linear-gradient(to bottom, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ca6c3', endColorstr='#08243f', GradientType=0 );
+}
+#administracion #idioma{
+  float: right;
+  display: block;
+  margin: 5px 5px 0 5px;
+  height: 56%;
+  background: #0C345C;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px 10px 0px 10px;
+  border-radius: 3px;
+  background: rgba(60,166,195,1);
+  background: -moz-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,166,195,1)), color-stop(32%, rgba(35,106,141,1)), color-stop(61%, rgba(12,52,92,1)), color-stop(83%, rgba(8,36,63,1)), color-stop(85%, rgba(8,36,63,1)));
+  background: -webkit-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -o-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: -ms-linear-gradient(top, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  background: linear-gradient(to bottom, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ca6c3', endColorstr='#08243f', GradientType=0 );
+}
+#logoconfiguracionnegro{
+  height: 22px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+#logousuario{
+  height: 25px;
+
+}
+#administracion #configlistdesplegable:hover{
+  background: #0168AF;
+}
+#administracion #usuariolistdesplegable:hover{
+  background: #0168AF;
+}
+#administracion #idioma:hover{
+  background: #0168AF;
+}
+section{
+  width: 100%;
+  height: 550px;
+  background-color: #f9f9f9;
+  margin: 54px 0 0 0;
+}
+
+footer{
+  clear: both;
+  background-color: #f0f0f0;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  margin-bottom:0;
+  border-top: inset;
+  border-color: #21334D;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#configlistdesplegable .listadesplegableconfiguracion{
+  background-color: #fff;
+  padding: 20px;
+  position: absolute;
+  display: none;
+}
+
+#configlistdesplegable:hover .listadesplegableconfiguracion{
+  display: flex;
+}
+.listadesplegableconfiguracion p{
+  font-weight: bold;
+  display: block;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #565656;
+  margin-bottom: 5px;
+}
+.formulariodeinscripcion{
+  width: 100%;
+  height: auto;
+  background-color: #f9f9f9;
+  margin: 54px 100px 0 300px;
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+.formulariodeinscripcion legend{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.formulariodeinscripcion p{
+  font-size: 18px;
+  font-family:Helvetica;
+}
+.formulariodeinscripcion h1{
+  font-size: 28px;
+  font-family:Helvetica;
+  color: #0C345C;
+  font-weight: bold;
+}
+.formulariodeinscripcion span{
+  font-size: 20px;
+  font-family: 'Comic Sans MS',cursive;
+  color:rgb(52, 111, 4);
+  font-weight: bold;
+}
