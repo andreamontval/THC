@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 5.5% 0 5.5% 0;
+}
+header{
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  box-sizing: border-box;
+  border-bottom: inset;
+  border-color: #21334D;
+}
+.panelizqheader{
+  width: 15%;
+  height: 100%;
+  margin:0;
+  position: absolute;
+}
+#logothcheader{
+  display: inline-block;
+  top: 0;
+  height: 50%;
+  padding-top: 7%;
+  padding-left: 10%;
+}
+.panelcentroheader{
+  width: 60%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  left: 15%;
+}
+#paginas{
+  height: 100%;
+  padding-top: 0.75%;
+}
+#paginas li{
+  display: inline-block;
+  position: relative;
+  left: -10%;
+  height: 56%;
+  background: #0C345C;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 80%;
+  text-transform: uppercase;
+  padding: 1.5% 2% 0 2%;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+}
+#paginas a{
+  text-decoration: none;
+  color: #fff;
+}
+#paginas li:hover{
+  background: #0168AF;
+}
+.panelderheader{
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  display: inline-block ;
+  left: 75%;
+}
+#administracion{
+  height: 100%;
+  padding-top: : 0.75%;
+  position: relative;
+  top: 12.5%;
+  left: -5%;
+}
+#administracion #configlistdesplegable{
+  float: right;
+  margin: 0 0 0 1.2%;
+  display: inline-block;
+  height: 56%;
+  background: #0C345C;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 80%;
+  text-transform: uppercase;
+  padding: 4% 4% 0 4%;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+}
+#administracion #usuariolistdesplegable{
+  float: right;
+  margin: 0 0 0 1.39%;
+  display: inline-block;
+  height: 56%;
+  background: #0C345C;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 80%;
+  text-transform: uppercase;
+  padding: 4% 4% 0 4%;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+}
+#administracion #idioma{
+  float: right;
+  display: inline-block;
+  height: 56%;
+  background: #0C345C;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 80%;
+  text-transform: uppercase;
+  padding: 4% 4% 0 4%;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, rgba(60,166,195,1) 0%, rgba(35,106,141,1) 32%, rgba(12,52,92,1) 61%, rgba(8,36,63,1) 83%, rgba(8,36,63,1) 85%);
+}
+#logoconfiguracionnegro{
+  height: 75%;
+}
+#logousuario{
+  height: 75%;
+}
+#configlistdesplegable .listadesplegableconfiguracion{
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  border-bottom: inset;
+  border-color: #21334D;
+  border: 1px solid;
+  padding: 20px;
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  display: none;
+  text-align: left;
+  list-style-type: none;
+}
+
+#configlistdesplegable:hover .listadesplegableconfiguracion{
+  display: inline-block;
+}
+.listadesplegableconfiguracion ul{
+  list-style-type: none;
+  position: relative;
+  right: 35%;
+}
+.listadesplegableconfiguracion ul a{
+  color: black;
+  text-decoration: none;
+}
+.listadesplegableconfiguracion p{
+  font-weight: bold;
+  display: block;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #565656;
+  margin-bottom: 5px;
+}
+#idioma .listadesplegableidioma{
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  border-bottom: inset;
+  border-color: #21334D;
+  border: 1px solid;
+  padding: 20px;
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  display: none;
+  text-align: left;
+  list-style-type: none;
+}
+
+#idioma:hover .listadesplegableidioma{
+  display: inline-block;
+  border: 1px solid black;
+}
+.listadesplegableidioma ul{
+  list-style-type: none;
+  position: relative;
+  color: black;
+  font-weight: bold;
+}
+.listadesplegableidioma ul #banderadeespana{
+  height: 50%;
+}
+.listadesplegableidioma ul a{
+  color: black;
+  text-decoration: none;
+}
+.listadesplegableidioma p{
+  font-weight: bold;
+  display: block;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #565656;
+  margin-bottom: 5px;
+  color: black;
+}
+
+#banderadeespana{
+  height: 50%;
+}
+section{
+  width: 100%;
+  min-height: 600px;
+  box-sizing: border-box;
+}
+footer{
+
+  background-color: #f0f0f0;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 8%;
+  box-sizing: border-box;
+  margin-bottom:0;
+  border-top: inset;
+  border-color: #21334D;
+  text-align: center;
+}
+.formulariodeinscripcion{
+  width: 100%;
+  height: auto;
+  background-color: #f9f9f9;
+  margin: 54px 100px 0 300px;
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+.formulariodeinscripcion legend{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.formulariodeinscripcion p{
+  font-size: 18px;
+  font-family:Helvetica;
+}
+.formulariodeinscripcion h1{
+  font-size: 28px;
+  font-family:Helvetica;
+  color: #0C345C;
+  font-weight: bold;
+}
+.formulariodeinscripcion span{
+  font-size: 20px;
+  font-family: 'Comic Sans MS',cursive;
+  color:rgb(52, 111, 4);
+  font-weight: bold;
+}
